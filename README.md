@@ -2,7 +2,7 @@
 
 <h2>Zillowの物件リスティング1001件のサンプルデータセット</h2>
 
-![Zillow dataset header](https://github.com/luminati-io/Zillow-dataset-samples/blob/main/zillow-datasets.PNG)
+![Zillow dataset header](https://github.com/bright-jp/Zillow-dataset-samples/blob/main/zillow-datasets.PNG)
 
 1000件を超える物件リスティングのZillowデータセットサンプルです。データセットは <b>Bright Data API</b> を使用して抽出されました。
 
@@ -47,7 +47,7 @@
 <b>[Zillowの完全なデータセットを入手する](https://brightdata.jp/products/datasets/zillow)</b>。
 
 
-![Zillow dataset visual](https://github.com/luminati-io/Zillow-dataset-samples/blob/main/zillow-datasets-image.PNG)
+![Zillow dataset visual](https://github.com/bright-jp/Zillow-dataset-samples/blob/main/zillow-datasets-image.PNG)
 
 <h2>Zillowデータセットのユースケースは何ですか？</h2>
 
