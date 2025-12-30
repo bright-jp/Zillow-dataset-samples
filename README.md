@@ -1,68 +1,68 @@
 # Zillow-dataset-samples
 
-<h2>A sample dataset of 1001 Zillow property listings</h2>
+<h2>Zillowの物件リスティング1001件のサンプルデータセット</h2>
 
 ![Zillow dataset header](https://github.com/luminati-io/Zillow-dataset-samples/blob/main/zillow-datasets.PNG)
 
-A Zillow dataset sample of over 1000 property listings. Dataset was extracted using the <b>Bright Data API</b>.
+1000件を超える物件リスティングのZillowデータセットサンプルです。データセットは <b>Bright Data API</b> を使用して抽出されました。
 
-<h2>Data points included in this free dataset:</h2>
+<h2>この無料データセットに含まれるデータポイント:</h2>
 
-* ```zpid```: A unique identifier for the property listing on Zillow
-* ```url```: The URL or link to the property listing
-* ```city```: The city in which the property is located
-* ```state```: The state in which the property is located
-* ```streetAddress```: The street address of the property
-* ```zipcode```: The ZIP code of the property
-* ```price```: The price of the property
-* ```homeStatus```: The status of the home (e.g., for sale, sold)
-* ```homeType```: The type of the home
-* ```longitude```: The longitude coordinate of the property
-* ```latitude```: The latitude coordinate of the property
-* ```photoCount```: The number of photos associated with the property listing
-* ```currency```: The currency in which the price and estimates are listed
-* ```livingArea```: The total living area of the property
-* ```lotSize```: The size of the lot
-* ```propertyTaxRate```: The property tax rate for the property
-* ```rentZestimate```: The Zillow estimate of the property's rental value
-* ```description```: A textual description or details about the property
-* ```tourViewCount```: The count of views for property tours
-* ```streetViewMetadataUrlMediaWallLatLong```: URL for street view metadata using latitude and longitude
-* ```isVerifiedClaimedByCurrentSignedInUser```: Indicates whether the claimed listing is verified by the current signed-in user (True/False)
-* ```isZillowOwned```: Indicates whether Zillow owns the property (True/False)
+* ```zpid```: Zillow上の物件リスティングの一意の識別子
+* ```url```: 物件リスティングのURLまたはリンク
+* ```city```: 物件が所在する市区町村
+* ```state```: 物件が所在する州
+* ```streetAddress```: 物件の住所（番地）
+* ```zipcode```: 物件のZIPコード
+* ```price```: 物件価格
+* ```homeStatus```: 住宅のステータス（例: 販売中、成約済み）
+* ```homeType```: 住宅タイプ
+* ```longitude```: 物件の経度座標
+* ```latitude```: 物件の緯度座標
+* ```photoCount```: 物件リスティングに紐づく写真数
+* ```currency```: 価格および見積もりが表示される通貨
+* ```livingArea```: 物件の延床面積（居住面積）の合計
+* ```lotSize```: 敷地面積
+* ```propertyTaxRate```: 物件の固定資産税率
+* ```rentZestimate```: Zillowによる当該物件の賃料推定値
+* ```description```: 物件に関するテキスト説明または詳細
+* ```tourViewCount```: 物件ツアーの閲覧数
+* ```streetViewMetadataUrlMediaWallLatLong```: 緯度・経度を使用したストリートビューのメタデータURL
+* ```isVerifiedClaimedByCurrentSignedInUser```: 現在サインインしているユーザーにより、クレームされたリスティングが検証済みかどうかを示します（True/False）
+* ```isZillowOwned```: Zillowが当該物件を所有しているかどうかを示します（True/False）
 
-And a lot more.
+ほかにも多数あります。
 
-This is a sample subset which is derived from the "Zillow Property Listings (public data)"
-dataset which includes more than <b>134,060,000 companies</b>.
+これは「Zillow Property Listings (public data)」データセットから派生したサンプルサブセットです。  
+このデータセットには <b>134,060,000 companies</b> を超えるデータが含まれます。
 
-Available dataset file formats: <b>JSON, NDJSON, JSON Lines, CSV, or Parquet. Optionally, files can be compressed to .gz</b>.
+利用可能なデータセットのファイル形式: <b>JSON, NDJSON, JSON Lines, CSV, or Parquet. Optionally, files can be compressed to .gz</b>.
 
-Dataset delivery type options: <b>Email, API download, Webhook, Amazon S3, Google Cloud storage, Google Cloud PubSub, Microsoft Azure, Snowflake, SFTP</b>.
+データセットの配信タイプの選択肢: <b>Email, API download, Webhook, Amazon S3, Google Cloud storage, Google Cloud PubSub, Microsoft Azure, Snowflake, SFTP</b>.
 
-Update frequency: <b>Once, Daily, Weekly, Monthly, Quarterly, or Custom basis</b>.
+更新頻度: <b>Once, Daily, Weekly, Monthly, Quarterly, or Custom basis</b>.
 
-Data enrichment available as an addition to the data points extracted: <b>Based on request.</b>
+抽出したデータポイントに追加できるデータエンリッチメント: <b>Based on request.</b>
 
-<b>[Get the full Zillow dataset](https://brightdata.com/products/datasets/zillow)</b>.
+<b>[Zillowの完全なデータセットを入手する](https://brightdata.jp/products/datasets/zillow)</b>。
 
 
 ![Zillow dataset visual](https://github.com/luminati-io/Zillow-dataset-samples/blob/main/zillow-datasets-image.PNG)
 
-<h2>What are the Zillow datasets use cases?</h2>
+<h2>Zillowデータセットのユースケースは何ですか？</h2>
 
-<h3>1. Housing demand analysis</h3>
+<h3>1. 住宅需要分析</h3>
 
-Leverage Zillow datasets to forecast housing demand and sales trends. Identify market cycles, and pinpoint the best opportunities by analyzing periods of lowest and peak prices.
+Zillowデータセットを活用して、住宅需要および販売トレンドを予測します。市場サイクルを特定し、最安値および高値の期間を分析することで、最適な機会を見極めます。
 
-<h3>2. Property price trends & growth</h3>
+<h3>2. 不動産価格のトレンドと成長</h3>
 
-Monitor and compare property prices on Zillow with localized real estate data. Analyze amenities by location to gain insights into homebuyer expectations and market conditions.
+Zillow上の物件価格を、ローカルな不動産データと比較・モニタリングします。所在地別の設備・特徴を分析し、住宅購入者の期待や市場環境に関するインサイトを得ます。
 
-<h3>3. Investment insights</h3>
+<h3>3. 投資インサイト</h3>
 
-Identify properties with the highest rental yields and analyze market dynamics using Zillow datasets. Uncover rental cycles, vacancy rates, and other key metrics to make informed investment decisions.
+Zillowデータセットを使用して、最も賃貸利回りの高い物件を特定し、市場ダイナミクスを分析します。賃貸サイクル、空室率、その他の主要指標を明らかにし、情報に基づいた投資判断を行います。
 
-<h2>Free access to web scraping tools and datasets for academic researchers and NGOs</h2>
+<h2>学術研究者およびNGO向けのWebスクレイピングツールとデータセットへの無料アクセス</h2>
 
-The Bright Initiative offers access to Bright Data's <b>[Web Scraper APIs](https://brightdata.com/products/web-scraper)</b> and <b>[ready-to-use datasets](https://brightdata.com/products/datasets)</b> to leading academic faculties and researchers, NGOs and NPOs promoting various environmental and social causes. You can submit an application <b>[here](https://brightinitiative.com)</b>.
+Bright Initiativeは、環境および社会的なさまざまな課題の推進に取り組む主要な大学学部・研究者、NGOおよびNPOに対して、Bright Dataの <b>[Web Scraper APIs](https://brightdata.jp/products/web-scraper)</b> と <b>[すぐに使えるデータセット](https://brightdata.jp/products/datasets)</b> へのアクセスを提供します。申請は <b>[こちら](https://brightinitiative.com)</b> から送信できます。
