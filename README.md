@@ -1,4 +1,4 @@
-# Zillow-dataset-samples
+# Zillow データセットサンプル
 
 <h2>Zillowの物件リスティング1001件のサンプルデータセット</h2>
 
